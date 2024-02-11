@@ -33,3 +33,7 @@ export const ThemeProvider = ({ children }) => {
 };
 
 export const useTheme = () => useContext(ThemeContext);
+
+export default function DummyExport() {
+  return null;
+}
